@@ -74,7 +74,7 @@
   <div class="col-md-12 col-sm-12 col-xs-12">
     <div class="col-md-12 col-sm-12 col-xs-12">
       <div class="x_content">
-        <h2 class="text-center">Add Digimon Data</h2>
+        <h2 class="text-center">Add Tribe Data</h2>
     </div>
   </div>
 </div>
@@ -83,7 +83,7 @@
 
 <div class="page-title">
   <div class="title_left">
-    <h3>Digimon List</h3>
+    <h3>Tribe List</h3>
   </div>
 
 <div class="title_right">
@@ -105,8 +105,6 @@
       <div class="x_content">
         <div id="error-data"></div>
         <div id="data-digimon"></div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-modal-edit">Tes Modal Edit</button>
-        <button class="btn btn-primary" id="reload"><i class="fa fa-refresh"></i> Reload</button>
       </div>
     </div>
   </div>
@@ -124,7 +122,7 @@
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
           </button>
-          <h4 class="modal-title" id="myModalLabel">Add Digimon Data</h4>
+          <h4 class="modal-title" id="myModalLabel">Add Tribe Data</h4>
         </div>
         <div class="modal-body">
 
@@ -191,7 +189,7 @@
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span>
           </button>
-          <h4 class="modal-title" id="myModalLabel">Edit Digimon Data</h4>
+          <h4 class="modal-title" id="myModalLabel">Edit Data Digimon</h4>
         </div>
         <div class="modal-body">
           <h4>Text in a modal</h4>
@@ -199,7 +197,7 @@
           <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Save Data</button>
+          <button type="button" class="btn btn-primary">Simpan Data</button>
         </div>
       </div>
     </div>

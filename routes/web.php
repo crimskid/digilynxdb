@@ -15,6 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/tampil', function () {
+Route::get('/indexdigimon', function () {
     return view('digimon');
+})->name('digimon.index');
+Route::get('/indextribe', function () {
+    return view('tribe');
+})->name('tribe.index');
+
+Route::get('/listdigimon', function () {
+    return view('listdigimon');
 });
